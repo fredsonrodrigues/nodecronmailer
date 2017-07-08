@@ -1,0 +1,16 @@
+{
+  "name": "nodecronmailer",
+  "version": "1.0.0",
+  "description": "A simple cron-mailer",
+  "main": "src/nodecronmailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/nodecronmailer.js"
+  },
+  "author": "Fredson Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^1.2.0",
+    "nodemailer": "^4.0.1"
+  }
+}
